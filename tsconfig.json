@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"pretty": true,
+    
+    "skipLibCheck": true,
+		"esModuleInterop": true,
+		"sourceMap": false,
+		"outDir": "./dist",
+		"lib": [
+			"ES2015",
+			"DOM"
+		],
+		"target": "es2018",
+	},
+	"include": [
+		"src/**/*.ts"
+, "knexfile.ts"	],
+	"exclude": [
+		"node_modules",
+		"test/**/*.ts"
+	]
+}
